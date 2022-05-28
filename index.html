@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registaration Form</title>
+        <link rel="stylesheet" href="sign-up.css">
+        <script src="sign-up.js"></script>
+    </head>
+       
+    <body>
+        <h1>Border's Registration Form</h1>
+        <div class="left">
+            <form action="sign-up.php" method="POST" name="RegForm" onsubmit="return Login()">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="fname">First Name:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="text" id="fname" name="FirstName" placeholder="Enter your first name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="lname">Last Name:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="text" id="lname" name="LastName" placeholder="Enter your last name" >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="age">Age:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="text" id="age" name="Age" placeholder="age" >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="email">Email:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="email" id="email" name="Email" placeholder="example@gmail.com" >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="phone">Phone Number:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="tel" id="phone" name="PhoneNumber" placeholder="only 11 digits are allowed" maxlength="11" >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="gender" >Gender:</label>
+                        </div>
+                        <div class="col-100">
+                            <input type="radio" id="male" name="Gender" value="male"  />Male
+                            <input type="radio" id="female" name="Gender" value="female" />Female
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="dob">Date Of Birth:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="Date" id="dob" name="DateOfBirth" >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="address">Address:</label>
+                        </div>
+                        <div class="col-90">
+                            <textarea name="Address" id="address" cols="30" rows="10" ></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="city">Province:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="text" id="province" name="Province" maxlength="10" >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="pincode">Postal Code:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="number" id="postal code" name="PostalCode" maxlength="6" >
+                        </div> 
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="department">Department:</label>
+                        </div>
+                        <div class="col-90">
+                            <div class="col-100">
+                                <input type="radio" class="department" id="edu" name="Department" value="Education" >Education<br/>
+                                <input type="radio" class="department" id="it" name="Department" value="Information Technology" >Information Technology<br/>
+                                <input type="radio" class="department" id="afa" name="Department" value="Agri-Fishery Arts" >Agri-Fishery Arts<br/>
+                                <input type="radio" class="department" id="fi" name="Department" value="Fishery Industry" >Fishery Industry<br/>
+                                <input type="radio" class="department" id="entrep" name="Department" value="Entrepreneurship" >Entrepreneurship<br/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="year">Year:</label>
+                        </div>
+                        <div class="col-100">
+                            <input type="radio" class="year" id="cs" name="Year" value="1" >1<br>
+                            <input type="radio" class="year" id="cs" name="Year" value="2" >2<br>
+                            <input type="radio" class="year" id="cs" name="Year" value="3" >3<br>
+                            <input type="radio" class="year" id="cs" name="Year" value="4" >4<br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="password">Password:</label>
+                        </div>
+                        <div class="col-90">
+                            <input type="password" id="password" name="Password" placeholder="Password" >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input class="submit" type="submit" name="Submit">
+                        <input class="reset" type="reset" name="Reset">
+                    </div>  
+                </div>
+            </form>
+        </div>
+
+        <div class="right">
+            <h3>News Heading 1</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam fuga totam animi, distinctio ipsam architecto nihil dolorum beatae commodi enim optio necessitatibus neque doloremque ea eaque illum, deleniti expedita hic. Incidunt quod consequuntur odit quo assumenda eveniet fuga, tenetur, illum minima at molestiae accusantium doloremque praesentium nulla ipsum veniam iusto.</p>
+            <br><br>
+            <h3>News Heading 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione labore explicabo ad quasi fuga voluptas, et autem eveniet omnis minus ab recusandae voluptates, ex velit. Repellat consequatur a suscipit placeat.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae id atque eos nobis ducimus odit error repellat doloremque modi, nulla maiores odio, debitis, quibusdam vero nam qui quos? Doloremque neque eaque et molestias officia cupiditate. Odit explicabo beatae porro laborum.</p>
+            <br><br>
+            <h3>News Heading 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis est impedit illo, id ad veritatis corrupti dolores iste sapiente, modi esse nam! Reprehenderit labore odit ea, aliquid ullam laborum atque quia autem itaque nihil facere id magni. Illum animi dolores quod beatae explicabo, minus velit aperiam dolor tempore modi ratione? Totam veritatis cum vitae tenetur ipsum. Aliquid, id ipsa eveniet mollitia fuga quisquam necessitatibus laboriosam, quibusdam nostrum aliquam asperiores odit blanditiis debitis minus, dolor quia quae neque repellat?</p>
+        </div>
+        <div class="bottom">
+            <h3>Rules and Regulations!</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit ea a nulla explicabo delectus necessitatibus, quia nostrum! Amet debitis harum commodi unde quos! Fugiat, mollitia! Nam deserunt consequatur veritatis debitis.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis earum provident nam nobis nemo illum beatae consequatur praesentium! Aut minus quasi nemo commodi nam! Amet ex placeat fuga expedita veniam optio fugit impedit quas nihil qui. At, veniam eligendi ipsum deleniti esse quam labore voluptatibus numquam, tempore, quibusdam commodi et.</p>
+        </div>
+          
+    </body>
+</html>
