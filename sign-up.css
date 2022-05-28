@@ -1,0 +1,75 @@
+body{
+    background-image: url(images/evsu.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: 60px;
+    background-color: yellow;
+    width: 60%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.left{
+    color: red;
+    float: left;
+    margin-top: 7%;
+    margin-left: 15%;
+    width: 20%;
+    font-size: 20px;
+}
+
+.col-100{
+    color: yellow;
+}
+
+.col-10{
+    margin-top: 4%;
+    font-style: bold;
+}
+
+.submit:hover{
+    background-color: red;
+}
+
+.reset:hover{
+    background-color: red;
+}
+
+.right{
+    float: right;
+    margin-right: 3%;
+    margin-top: 5%;
+    background-color: aqua;
+    width: 45%;
+    border-radius: 10px;
+}
+
+.right h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.right p{
+    margin: 4%;
+}
+
+footer{
+    float: none;
+    width: 100%;
+}
+
+.bottom{
+    text-align: center;
+    float: right;
+    width: 570px;
+    background-color: black;
+    color: gold;
+    margin-right: 2.5rem;
+    margin-top: 3rem;
+    padding: 1rem;
+}
